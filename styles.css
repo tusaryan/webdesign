@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  background-image: url("./assets/videos/background1.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+  background-color: grey;
+}
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  color: whitesmoke;
+  margin: 0px;
+}
+
+.head{
+  flex:1;
+  display: inline;
+}
+
+.main {
+  flex: 1;
+  margin: 4rem;http://127.0.0.1:5500/assets/images/construction.jpg
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+footer {
+  display: block;
+  text-align: right;
+  color: rgb(170, 255, 249);
+  border-top: 1px solid white;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0% !important;
+}
+
+.tile-image {
+  float: left;
+  height: 200px;
+  width: 20em;
+  margin-right: 50px;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 45%;
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.4);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: rgb(36, 151, 190);
+}
+
+@media (max-width: 680px) {
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .logo{
+    width: 100px;
+  }
+
+  .tile-image{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;  /*Use imp*/
+    object-fit: cover; /*Use imp*/
+  }
+
+  .card{
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    text-align: justify;  /*Use imp*/
+  }
+  .right {
+    margin-left: 20px;
+  }
+
+  
+}

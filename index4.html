@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agency</title>
+  <link rel="stylesheet" href="./style4.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script>
+    var a = 1
+    function changeBackground(){
+      a = prompt("Enter number from 1 to 4")
+      myUrl = "url('./assets/videos/background"+a+".gif')"
+      newUrl = `"${myUrl}"`
+      alert(newUrl)
+      document.html.style.backgroundImage = newUrl
+      
+    }
+  </script>
+  <div class="head1">
+    <h3>Home</h3>
+    <h3>Contact us</h3>
+    <h3>About</h3>
+  </div>
+  <div class="main">
+    <img class="logo" src="./assets/images/logo.png" alt="logo">
+    <h1 class="underlined">We are a <span class="creative">Creative</span> <br />Design Agency</h1>
+    <div class="left card">
+      <img class="tile-image" src="./assets/images/beautiful.jpg" alt="hand and flower in water">
+      <h2 class="card-title underlined">Beauty</h2>
+      <p class="card-text">We strive to create the most beautiful websites for all your needs. Working closely with you
+        to
+        design and
+        develop an amazing website for your business.</p>
+    </div>
+
+    <div class="right card">
+      <img class="tile-image" src="./assets/images/construction.jpg" alt="metal structure">
+      <h2 class="card-title underlined">Construction</h2>
+      <p>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from
+        scratch using HTML and CSS. Only the best for you.</p>
+    </div>
+
+  </div>
+  <div>
+    <button><a href="./index3.html">Prev Background</a></button>
+    <button><a href="./index.html">Main Background</a></button>
+  </div>
+  <footer>
+    <p>Create. Develop. Design.</p>
+  </footer>
+</body>
